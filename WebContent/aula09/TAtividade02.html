@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Atividade de Revisão 02 - Servlet</title>
+	<script src="../js/atividades.js"></script>
+</head>
+
+<body>
+	<form name="formOperacoes" action="/Testes/atividadeRevServlet" method="post">
+		<fieldset>
+			<legend>Valores:</legend>
+			<label for="valor1">Valor 1</label><br>
+			<input type="number" name="valor1" required><br> 
+			
+			<label for="valor2">Valor 2</label><br>
+			<input type="number" name="valor2" required><br>
+			
+			<input type="text" name="op" id="op" hidden>
+			
+			<button type="button" onclick="redireciona('soma')">Somar</button>
+			<button type="button" onclick="redireciona('subt')">Subtrair</button>
+		 </fieldset>
+	</form>
+</body>
+</html>
+
